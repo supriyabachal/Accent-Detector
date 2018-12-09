@@ -1,0 +1,1 @@
+ffmpeg -i "data/2-processed-wav/chinese2/mandarin43.wav" -af silencedetect=noise=-30dB:d=0.5 -f null - 2> vol.txt
